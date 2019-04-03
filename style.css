@@ -1,0 +1,17 @@
+div {
+    height: 100vh;
+    background: url(img/automobile\ \(1\).png) no-repeat,
+    url(img/car\ \(4\).png) no-repeat,
+    url(img/racing.png) no-repeat,
+    url(img/road.png) repeat;
+
+    background-size: auto 15%, auto 15%, auto 14%, auto 30%;
+    background-position: top 10% left 5%, top 40% left 5%, top 70% left 5%, top 0 left 0;
+
+    transition: background-position 10s ease;
+
+}
+
+div:hover {
+    background-position: top 10% left 90%, top 40% left 85%, top 70% left 75%, top 0 left 0;
+}
